@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeSeekBar">
+        <attr name="rsb_min" format="integer" />
+        <attr name="rsb_max" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="StepSeekBar">
+        <attr name="ssb_interval" format="integer" />
+        <attr name="ssb_textColor" format="color" />
+        <attr name="ssb_selectedTextColor" format="color" />
+        <attr name="ssb_textSize" format="dimension" />
+        <attr name="ssb_showSteps" format="boolean" />
+    </declare-styleable>
+</resources>
