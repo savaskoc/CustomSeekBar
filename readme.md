@@ -4,10 +4,12 @@ Ranged and/or stepped SeekBar for android.
 ![Tinypic](http://i59.tinypic.com/xghaxk.png)
 
 ###Installation
-Add [jitpack.io](https://jitpack.io/) to your repositories.
-
     repositories {
         maven { url "https://jitpack.io" }
+    }
+
+    dependencies {
+        compile 'com.github.savaskoc:CustomSeekBar:0.0.2'
     }
 
 ###Usage Sample
@@ -28,9 +30,10 @@ or
                     app:rsb_min="5"
                     app:ssb_interval="5" />
 
-###Properties for RangeSeekBar
+###Properties for RangeSeekBar (all properties have getters and setters!)
 * app:rsb_min (Min value for SeekBar)
 * app:rsb_max (Max value for SeekBar)
+* getProgressValue(), setProgressValue(int)
 
 ###Properties for StepSeekBar (also RangeSeekBar, so you can use its properties too)
 * app:ssb_interval (Interval for SeekBar) (eg. for interval 5, you have steps 0.5.10.15.20...100)
